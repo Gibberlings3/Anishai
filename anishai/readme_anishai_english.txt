@@ -3,7 +3,7 @@ Anishai one-day NPC
 
 Author: Barren <barren50@hotmail.com>
 Updated: Leomar <http://forums.gibberlings3.net/index.php?showuser=2431>
-Version 1.4
+Version 2
 
 
 In order to let German and Italian gamers enjoy this mod, we repackaged it and included the translations. Of course, we'll take it down as soon as either Barren updates the mod or asks for it to be taken down.
