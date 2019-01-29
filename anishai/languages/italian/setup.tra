@@ -1,0 +1,22 @@
+@0    = ~Anishai one-day NPC~
+@1    = ~Anishai~
+@2    = ~Quando gli domandi del suo passato, il sorriso di ANISHAI sembra diventare più nervoso. A quanto pare, é nata in una ricca famiglia di mercanti di Kara-Tur, e cresciuta in un famoso (e costoso) monastero. Dopo che suo padre andò in rovina a causa di grandi e incauti affari, tutta la famiglia si trasferì nell'Amn per iniziare una nuova vita. La nave su cui viaggiava la sua famiglia, però, fu sorpresa da una terribile tempesta e tra le vittime ci furono anche i genitori di Anishai. L'allora ragazzina si salvò e fu messa in salvo da alcuni pescatori e condotta ad Athkatla, ma non avendo nessun parente lì, per sopravvivere fu costretta a rubare, usando le sue abilità di nascondersi tra le ombre, il suo fascino e le sue conoscenze di monaca acquisite dai monaci al monastero. Alla fine incontrò Mae'Var ed accettò di far parte della sua gilda di Ladri Tenebrosi, finché non si rese conto che terribile uomo realmente fosse. Visse infelice nella sede della gilda per anni, desiderosa di parlare con tutti eccetto che con il suo capo. Finalmente gli fu offerto un incarico migliore da Renal Bloodscalp, che la persuase a sterminare la sua vecchia gilda e i suoi precedenti compagni... ed è a questo punto che lei si incontrò con <CHARNAME>.~
+@3    = ~Pugnale di Anishai~
+@4    = ~Questo é il pugnale personale di Anishai, creato dai maestri fabbri dei Ladri Tenebrosi.
+
+STATISTICHE:
+
+Danno: 1D4 + 3
+THAC0: bonus +3
+Peso: 2
+Fattore Velocità: 0
+Tipo di competenza: Pugnale
+Tipo: ad una mano
+Speciale:
+Danno da Veleno
+Aggiunge due attacchi extra per round
+Utilizzabile da:
+Anishai
+
+~
+

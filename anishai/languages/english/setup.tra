@@ -1,0 +1,21 @@
+@0    = ~Anishai one-day NPC~
+@1    = ~Anishai~
+@2    = ~When asked about her past, ANISHAI's smile seems to become more nervous. Apparently, she was born in a rich Kara-Tur merchant family, and raised in a famous (and expensive) monastery. After her father was ruined by bigger businesses, the whole family moved to Amn to start a new life. However, the ship they were traveling on was caught in a terrible storm and Anishai's parents were among the casualties. The little girl was rescued by fishermen and taken to Athkatla but without any relatives there, she had to resort to thievery for a living, using the skills of stealth, charm and grace she learned from the monks. Eventually, she crossed paths with Mae'Var and accepted to become part of his guild of Shadow Thieves, until she found out what a horrible man he really was. She lived unhappy in the guildhouse for years, eager to speak with anyone but her boss. Eventually, she was offered a better mission by Renal Bloodscalp, which led to the slaughtering of her former comrades... and her encounter with <CHARNAME>.~
+@3    = ~Anishai's Dagger~
+@4    = ~This is Anishai's personnal dagger, crafted by the master smiths of the Shadow Thieves.
+
+STATISTICS:
+
+Damage:  1D4 + 3
+THAC0:  +3 bonus
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Dagger
+Type:  1-handed
+Special:
+Poison Damage
+Adds two extra attacks per round
+Usable By:
+Anishai
+
+~

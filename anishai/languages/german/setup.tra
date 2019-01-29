@@ -1,0 +1,21 @@
+@0    = ~Anishai one-day NPC~
+@1    = ~Anishai~
+@2    = ~Wenn sie bezüglich ihrer Vergangenheit befragt wird scheint ANISHAI zunehmend nervös zu werden. Scheinbar wurde sie in einer reichen Kara-Tur Händler Familie geboren und in einem berühmten (und teuren) Kloster aufgezogen. Nachdem ihr Vater durch ein geplatztes Geschäft ruiniert war zog es die gesamte Familie nach Amn um ein neues Leben zu beginnen. Wie auch immer, das Schiff auf dem sie ihre Reise antraten segelte in einen schweren Sturm und Anishais Eltern wurden zu Opfern der Fluten. Das kleine Mädchen wurde von einem Fischer gerettet und nach Athkatla gebracht, aber ohne Verwandte dort, musste sie Zuflucht im Diebesgeschäft suchen um zu überleben, wobei ihr die Fähigkeiten die sie von den Mönchen erlernte zu Hilfe kamen. Letzten Endes kreuzte sich ihr Weg mit Mae’Var und sie akzeptierte ein Teil seiner Gilde der Schattendiebe zu werden, bis sie bemerkte welch ein verabscheuungswürdiger Mann er wirklich war. Sie lebte unglücklich, jahrelang im Gildengebäude begierig mit jedem zu sprechen mit Ausnahme des Gildenleiters. Durch Zufall wurde ihr eine bessere Mission durch Renal Blutskalp angeboten, welche zum Abschlachten ihrer früheren Kameraden führte... und ihrer Begegnung mit <CHARNAME>.~
+@3    = ~Anishais Dolch~
+@4    = ~Dies ist Anishais persönlicher Dolch, geschmiedet von den Meister Schmieden der Schatten Diebe.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W4 + 3
+ETW0:  +3 Bonus
+Gewicht: 2
+Geschwindigkeit: 0
+Waffen Fertigkeit: Dolch
+Typ:  1-Händer
+Speziell:
+Gift Schaden
+Fügt zwei extra Attacken pro Runde hinzu
+Verwendbar von:
+Anishai
+
+~
