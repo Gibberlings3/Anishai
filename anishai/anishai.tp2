@@ -1,16 +1,14 @@
 BACKUP  ~Anishai/backup~
 SUPPORT ~https://www.gibberlings3.net/forums/forum/28-miscellaneous-released-mods/~
-
 VERSION ~v2~
-
 README ~anishai/readme_anishai_%LANGUAGE%.txt~ ~anishai/readme_anishai_english.txt~
 
 AUTO_TRA ~Anishai/languages/%s~
 
-ALWAYS 
+ALWAYS
 
   ACTION_IF NOT VARIABLE_IS_SET bg2_chapter THEN BEGIN // check to make this happen only once per install
-      
+
     ACTION_IF GAME_IS ~eet~ BEGIN
       OUTER_SET bg2_chapter = 12
     END ELSE BEGIN
@@ -54,7 +52,7 @@ BEGIN @0
 
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
   LOAD_TRA ~Anishai/languages/%LANGUAGE%/ee.tra~
-END  
+END
 
 // The following is the copying of Anishai's .CRE file. It doesn't overwrite the original one.
 
@@ -78,13 +76,13 @@ COPY ~Anishai/items/anidag.itm~ ~override~ // anishai's dagger
 	WRITE_BYTE 0x2d 0
 	WRITE_BYTE 0x2f 0
 	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter2 = 11 timing = 2 special = RESOLVE_STR_REF (@1) STR_VAR resource = anishai END
-  END	
+  END
 
 INCLUDE ~anishai/lib/cd_portrait_copy.tph~
 LAF cd_portrait_npc STR_VAR source = ~Anishai~ source_path = ~Anishai/portraits~ END
 
-COMPILE ~Anishai/scripts/thief7.baf~ 
-COMPILE ~Anishai/scripts/Anishai.baf~ 
+COMPILE ~Anishai/scripts/thief7.baf~
+COMPILE ~Anishai/scripts/Anishai.baf~
 
 // The following is telling WeiDU to compile the following .d files
 
