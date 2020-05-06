@@ -6,7 +6,7 @@ call "%~dp0..\ModPackaging\utilities\ie_games.bat"
 
 REM /* MODIFY: set the values of the 3 variables below to reflect the current mod version */
 set "mod_name=Anishai One Day NPC"
-set mod_version=v2
+set mod_version=v3
 set mod_folder=anishai
 
 REM /* MODIFY: list here which IE games the mod is compatible with, from this list of possibilities: */
@@ -26,7 +26,7 @@ set iconv_folder=%mod_folder%\languages\iconv
 set mod_readme=https://gibberlings3.github.io/Documentation/readmes/readme_anishai_english.txt
 
 REM /* MODIFY: if you don't need to build a specific package, you can disable it by setting the appropriate variable below to 0 */
-set build_windows=1
+set build_windows_zip=1
 set build_osx=1
 set build_linux=1
 

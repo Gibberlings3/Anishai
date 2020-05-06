@@ -2,15 +2,8 @@ Baldur's Gate II
 Anishai one-day NPC
 
 Author: Barren <barren50@hotmail.com>
-Updated: Leomar <http://forums.gibberlings3.net/index.php?showuser=2431>
-Version 2
-
-
-In order to let German and Italian gamers enjoy this mod, we repackaged it and included the translations. Of course, we'll take it down as soon as either Barren updates the mod or asks for it to be taken down.
-
-Leomar <http://forums.gibberlings3.net/index.php?showuser=2431>
-
-
+Support: https://www.gibberlings3.net/forums/topic/488-anishai-one-day-npc-released
+Version 3
 
 Contents
 
@@ -37,21 +30,13 @@ Ghreyfain, whose tutorials were very helpful
 Westley Weimer, for the great tool that is Weidu
 PhroXenGold, because I took Anishai's portrait from his site
 Roland the Druid, who tried to help me when I lost some files
+Our translators: Yago (German), Ilot (Italian), Galathee (French), and prowler (Russian)
 
 Special thanks to Icelus, an inspiration to modders everywhere
 
 4.  Spoilers.
 
 To get Anishai in your party, just visit the second floor of Mae'Var's guildhouse after everyone's gone hostile, and pick the right dialog choices. She's a Chaotic Neutral lv 10 monk with 14 str, 17 dex, 10 con, 13 int, 9 wis and 16 cha. She carries a dagger, whose properties are not completely known, even to Anishai herself. It seems to strike as a +3 weapon, and deal poison damage.
-
-
-
-
-
-
-
-
-
 
 5. Versions history
 
@@ -84,4 +69,7 @@ Fixed two small bugs with the dagger, and added Anishai's biography.
 - Native EET compatibility
 - Minor bugfixes
 - Updated to WeiDU v246
+
+5/6/20: Version 3 (CamDawg)
+- Added Russian translation, courtesy of prowler
 

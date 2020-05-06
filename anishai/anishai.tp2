@@ -1,9 +1,9 @@
-BACKUP  ~Anishai/backup~
+BACKUP  ~anishai/backup~
 SUPPORT ~https://www.gibberlings3.net/forums/forum/28-miscellaneous-released-mods/~
-VERSION ~v2~
+VERSION ~v3~
 README ~anishai/readme_anishai_%LANGUAGE%.txt~ ~anishai/readme_anishai_english.txt~
 
-AUTO_TRA ~Anishai/languages/%s~
+AUTO_TRA ~anishai/languages/%s~
 
 ALWAYS
 
@@ -30,33 +30,38 @@ ALWAYS
 END
 
 LANGUAGE ~English~
-         ~English~
-         ~Anishai/languages/English/Setup.tra~
+         ~english~
+         ~anishai/languages/english/Setup.tra~
 
 LANGUAGE ~Deutsch (Uebersetzung von Yago)~
-         ~German~
-         ~Anishai/languages/English/Setup.tra~
-         ~Anishai/languages/German/Setup.tra~
+         ~german~
+         ~anishai/languages/english/Setup.tra~
+         ~anishai/languages/german/Setup.tra~
 
 LANGUAGE ~Italian (translated by Ilot)~
-         ~Italian~
-         ~Anishai/languages/English/Setup.tra~
-         ~Anishai/languages/Italian/Setup.tra~
+         ~italian~
+         ~anishai/languages/english/Setup.tra~
+         ~anishai/languages/italian/Setup.tra~
 
 LANGUAGE ~Francais (traduit par Galathee)~
-         ~French~
-         ~Anishai/languages/English/Setup.tra~
-         ~Anishai/languages/French/Setup.tra~
+         ~french~
+         ~anishai/languages/english/Setup.tra~
+         ~anishai/languages/french/Setup.tra~
+
+LANGUAGE ~Russian (prowler)~
+         ~russian~
+         ~anishai/languages/english/Setup.tra~
+         ~anishai/languages/russian/Setup.tra~
 
 BEGIN @0
 
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
-  LOAD_TRA ~Anishai/languages/%LANGUAGE%/ee.tra~
+  LOAD_TRA ~anishai/languages/%LANGUAGE%/ee.tra~
 END
 
 // The following is the copying of Anishai's .CRE file. It doesn't overwrite the original one.
 
-COPY ~Anishai/creatures/Anishai.cre~ ~override~
+COPY ~anishai/creatures/anishai.cre~ ~override~
   SAY NAME1 @1
   SAY NAME2 @1
   SAY BIO @2
@@ -65,29 +70,29 @@ COPY_EXISTING ~thief7.cre~ ~override~
   WRITE_ASCII 0x248 ~thief7~ #8
   WRITE_BYTE  0x27b 50 // chaotic neutral
 
-COPY ~Anishai/items/anidag.itm~ ~override~ // anishai's dagger
+COPY ~anishai/items/anidag.itm~ ~override~ // anishai's dagger
   SAY NAME1 @3
   SAY NAME2 @3
   SAY DESC  @4
   PATCH_IF GAME_IS ~bg2ee eet~ BEGIN
     WRITE_LONG 0x1e (BIT7 + BIT8 + BIT9 + BIT10 + BIT14 + BIT15) // normal dagger unusability since we're 319'ing it
-	WRITE_BYTE 0x29 0
-	WRITE_BYTE 0x2b BIT1
-	WRITE_BYTE 0x2d 0
-	WRITE_BYTE 0x2f 0
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter2 = 11 timing = 2 special = RESOLVE_STR_REF (@1) STR_VAR resource = anishai END
+    WRITE_BYTE 0x29 0
+    WRITE_BYTE 0x2b BIT1
+    WRITE_BYTE 0x2d 0
+    WRITE_BYTE 0x2f 0
+    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 319 target = 1 power = 1 parameter2 = 11 timing = 2 special = RESOLVE_STR_REF (@1) STR_VAR resource = anishai END
   END
 
 INCLUDE ~anishai/lib/cd_portrait_copy.tph~
-LAF cd_portrait_npc STR_VAR source = ~Anishai~ source_path = ~Anishai/portraits~ END
+LAF cd_portrait_npc STR_VAR source = ~anishai~ source_path = ~anishai/portraits~ END
 
-COMPILE ~Anishai/scripts/thief7.baf~
-COMPILE ~Anishai/scripts/Anishai.baf~
+COMPILE ~anishai/scripts/thief7.baf~
+COMPILE ~anishai/scripts/anishai.baf~
 
 // The following is telling WeiDU to compile the following .d files
 
-COMPILE ~Anishai/dialogue/Anishai.d~ EVALUATE_BUFFER
-COMPILE ~Anishai/dialogue/AnishaiP.d~ EVALUATE_BUFFER
+COMPILE ~anishai/dialogue/anishai.d~ EVALUATE_BUFFER
+COMPILE ~anishai/dialogue/anishaiP.d~ EVALUATE_BUFFER
 
 // The following is some .2DA appending for Anishai
 
