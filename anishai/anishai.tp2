@@ -53,6 +53,11 @@ LANGUAGE ~Russian (prowler)~
          ~anishai/languages/english/Setup.tra~
          ~anishai/languages/russian/Setup.tra~
 
+LANGUAGE ~Schinese~
+         ~schinese~
+         ~anishai/languages/english/Setup.tra~
+         ~anishai/languages/schinese/Setup.tra~
+
 BEGIN @0
 
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
